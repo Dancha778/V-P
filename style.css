@@ -1,0 +1,37 @@
+html,body{
+   height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex: 1 0 auto;  
+}
+
+.flex_main{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.reg_field{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    
+}
+.reg_field input{
+    margin-left: 10px ;
+}
+
+
+.input_button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
